@@ -1,0 +1,2 @@
+//https://github.com/nothingrandom/project_euler.js
+function fib(e,t){if(t===0){return 1}if(t===1){return 2}return e[t-1]+e[t-2]}var answer=0;var total=[];for(var i=0;i<4e6;i++){total[i]=fib(total,i);if(total[i]>4e6){break}if(total[i]%2===0){answer+=total[i]}}console.log(answer)

@@ -1,0 +1,2 @@
+//https://github.com/nothingrandom/project_euler.js
+function isPrime(e){var t=true;var n=Math.round(Math.sqrt(e));for(i=n;i>=2;i--){if(e%i===0){t=false}}return t}function primeCount(e){var t=1;var n=0;var r=2;while(t<=e){if(isPrime(r)===true){n=r;t++;r++}else{r++}}console.log(n)}primeCount(10001)

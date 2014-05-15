@@ -1,0 +1,2 @@
+//https://github.com/nothingrandom/project_euler.js
+var answer=2;var mil=2e6;for(var i=2;i<mil;i++){if(i%2!=1){continue}var a=3;var b=Math.sqrt(i);while(i%a!==0&&a<b){a+=2}if((i%a===0&&i!=a)*1===0){answer+=i}}console.log(answer)

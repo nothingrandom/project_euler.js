@@ -1,0 +1,2 @@
+//https://github.com/nothingrandom/project_euler.js
+function highprime(e){var t=Math.round(Math.sqrt(e));for(var n=t;n>=2;n--){if(e%n===0&&highprime(n)===1){return n}}return 1}console.log(highprime(600851475143))

@@ -1,0 +1,2 @@
+//https://github.com/nothingrandom/project_euler.js
+function great(e,t){var n=e;var r=t;var i;while(r!==0){i=n%r;n=r;r=i}return n}function low(e,t){return e*t/great(e,t)}var max=20;var min=11;var number=min;for(var i=min;i<=max;i++){number=low(number,i)}console.log(number)

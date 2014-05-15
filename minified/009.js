@@ -1,0 +1,2 @@
+//https://github.com/nothingrandom/project_euler.js
+var answer=0;e:for(var i=2;;i++){for(var j=1;j<i;j++){var a=i*i-j*j;var b=2*i*j;var c=i*i+j*j;if(a+b+c==1e3){answer=a*b*c;break e}}}console.log(answer)

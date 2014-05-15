@@ -1,3 +1,5 @@
+//https://github.com/nothingrandom/project_euler.js
+
 var number;
 var pal = 0;
 var str1 = '';

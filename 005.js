@@ -1,3 +1,5 @@
+//https://github.com/nothingrandom/project_euler.js
+
 function great(a,b) {
 	var x = a;
 	var y = b;

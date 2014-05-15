@@ -1,3 +1,5 @@
+//https://github.com/nothingrandom/project_euler.js
+
 function highprime(x) {
 	var max = Math.round(Math.sqrt(x));
 

@@ -1,3 +1,5 @@
+//https://github.com/nothingrandom/project_euler.js
+
 function fib(total, x) {
 	if(x === 0) {
 		return 1;

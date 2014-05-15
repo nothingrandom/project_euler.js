@@ -1,3 +1,5 @@
+//https://github.com/nothingrandom/project_euler.js
+
 var answer = 0;
 
 var grid = [

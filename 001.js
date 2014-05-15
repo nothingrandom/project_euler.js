@@ -1,3 +1,5 @@
+//https://github.com/nothingrandom/project_euler.js
+
 var answer = 0;
 
 for (var i = 0; i < 1000; i++) {

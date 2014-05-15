@@ -1,3 +1,5 @@
+//https://github.com/nothingrandom/project_euler.js
+
 var answer = 2;
 var mil = 2000000;
 

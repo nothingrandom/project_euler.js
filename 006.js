@@ -1,3 +1,5 @@
+//https://github.com/nothingrandom/project_euler.js
+
 var square = 0;
 var sum = 0;
 var answer = 0;

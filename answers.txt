@@ -1,3 +1,5 @@
+https://github.com/nothingrandom/project_euler.js
+
 001 = 233168
 002 = 4613732
 003 = 6857

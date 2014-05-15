@@ -1,3 +1,5 @@
+//https://github.com/nothingrandom/project_euler.js
+
 function isPrime(number) {
 	var prime = true;
 	var max = Math.round(Math.sqrt(number));

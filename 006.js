@@ -6,13 +6,13 @@ var answer = 0;
 var number2 = 0;
 
 for (var i = 0; i <= 100; i++) {
-	var number = Math.pow(i,2);
+	var number = Math.pow(i, 2);
 	square += number;
 }
 
-for(var i = 0; i <= 100; i++) {
+for (var i = 0; i <= 100; i++) {
 	number2 += i;
-	sum = Math.pow(number2,2);
+	sum = Math.pow(number2, 2);
 }
 
 var answer = sum - square;

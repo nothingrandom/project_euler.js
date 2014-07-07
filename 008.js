@@ -4,7 +4,7 @@ var number = "731671765313306249192251196744265747423553491949349698352031277450
 var answer = 0;
 
 for (var i = 0; i < number.length - 5; i++) {
-	var gprod = number[i] * number[i + 1] * number[i + 2] * number[i+3] * number[i + 4];
+	var gprod = number[i] * number[i + 1] * number[i + 2] * number[i + 3] * number[i + 4];
 	if (gprod > answer) {
 		answer = gprod;
 	}

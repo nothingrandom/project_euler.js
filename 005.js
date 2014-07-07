@@ -1,6 +1,6 @@
 //https://github.com/nothingrandom/project_euler.js
 
-function great(a,b) {
+function great(a, b) {
 	var x = a;
 	var y = b;
 	var result;
@@ -15,16 +15,16 @@ function great(a,b) {
 
 }
 
-function low(a,b) {
-	return (a * b) / great(a,b);
+function low(a, b) {
+	return (a * b) / great(a, b);
 }
 
 var max = 20;
 var min = 11;
 var number = min;
 
-for(var i = min; i <= max; i++) {
-	number = low(number,i);
+for (var i = min; i <= max; i++) {
+	number = low(number, i);
 }
 
 console.log(number);

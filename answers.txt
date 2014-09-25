@@ -11,3 +11,4 @@ https://github.com/nothingrandom/project_euler.js
 009 = 31875000
 010 = 142913828922
 011 = 70600674
+012 = 76576500

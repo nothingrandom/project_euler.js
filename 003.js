@@ -1,5 +1,7 @@
 //https://github.com/nothingrandom/project_euler.js
 
+var timeStart = performance.now();
+
 function highprime(x) {
 	var max = Math.round(Math.sqrt(x));
 
@@ -12,3 +14,7 @@ function highprime(x) {
 }
 
 console.log(highprime(600851475143));
+
+var timeEnd = performance.now();
+var totalTime = (timeEnd - timeStart);
+console.log(totalTime + " ms");

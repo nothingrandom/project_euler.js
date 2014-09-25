@@ -1,3 +1,7 @@
+//https://github.com/nothingrandom/project_euler.js
+
+var timeStart = performance.now();
+
 function triNum(n) {
 	var sum = 0;
 	for (var i = 1; i <= n; i++) {
@@ -30,9 +34,13 @@ function factors(n) {
 	return arr.sort(function(a, b) { return a - b; });
 }
 
-var i = 1;
-while (factors(triNum(i)).length < 500) {
-	i++;
+var answer = 1;
+while (factors(triNum(answer)).length < 500) {
+	answer++;
 }
 
-console.log(triNum(i));
+console.log(triNum(answer));
+
+var timeEnd = performance.now();
+var totalTime = (timeEnd - timeStart);
+console.log(totalTime + " ms");

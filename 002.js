@@ -1,5 +1,7 @@
 //https://github.com/nothingrandom/project_euler.js
 
+var timeStart = performance.now();
+
 function fib(total, x) {
 	if (x === 0) {
 		return 1;
@@ -24,3 +26,7 @@ for (var i = 0; i < 4000000; i++) {
 }
 
 console.log(answer);
+
+var timeEnd = performance.now();
+var totalTime = (timeEnd - timeStart);
+console.log(totalTime + " ms");

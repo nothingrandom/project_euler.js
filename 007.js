@@ -1,5 +1,7 @@
 //https://github.com/nothingrandom/project_euler.js
 
+var timeStart = performance.now();
+
 function isPrime(number) {
 	var prime = true;
 	var max = Math.round(Math.sqrt(number));
@@ -29,3 +31,7 @@ function primeCount(prime) {
 }
 
 primeCount(10001);
+
+var timeEnd = performance.now();
+var totalTime = (timeEnd - timeStart);
+console.log(totalTime + " ms");

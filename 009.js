@@ -1,5 +1,7 @@
 //https://github.com/nothingrandom/project_euler.js
 
+var timeStart = performance.now();
+
 var answer = 0;
 
 loop:
@@ -16,3 +18,7 @@ for (var i = 2; ; i++) {
 }
 
 console.log(answer);
+
+var timeEnd = performance.now();
+var totalTime = (timeEnd - timeStart);
+console.log(totalTime + " ms");

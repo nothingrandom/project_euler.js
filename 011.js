@@ -1,5 +1,7 @@
 //https://github.com/nothingrandom/project_euler.js
 
+var timeStart = performance.now();
+
 var answer = 0;
 
 var grid = [
@@ -79,5 +81,9 @@ for (var i = 0; i < outgrid - 4; i++) {
 	}
 }
 
-answer = Math.max(gright,  gdown,  gdiag,  gdiag_rev);
+answer = Math.max(gright, gdown, gdiag, gdiag_rev);
 console.log(answer);
+
+var timeEnd = performance.now();
+var totalTime = (timeEnd - timeStart);
+console.log(totalTime + " ms");

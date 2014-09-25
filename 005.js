@@ -1,5 +1,7 @@
 //https://github.com/nothingrandom/project_euler.js
 
+var timeStart = performance.now();
+
 function great(a, b) {
 	var x = a;
 	var y = b;
@@ -28,3 +30,7 @@ for (var i = min; i <= max; i++) {
 }
 
 console.log(number);
+
+var timeEnd = performance.now();
+var totalTime = (timeEnd - timeStart);
+console.log(totalTime + " ms");

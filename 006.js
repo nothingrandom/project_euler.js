@@ -1,5 +1,7 @@
 //https://github.com/nothingrandom/project_euler.js
 
+var timeStart = performance.now();
+
 var square = 0;
 var sum = 0;
 var answer = 0;
@@ -18,3 +20,7 @@ for (var i = 0; i <= 100; i++) {
 var answer = sum - square;
 
 console.log(answer);
+
+var timeEnd = performance.now();
+var totalTime = (timeEnd - timeStart);
+console.log(totalTime + " ms");

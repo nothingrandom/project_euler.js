@@ -11,8 +11,8 @@ function reverse(n) {
   return n.split('').reverse().join('');
 }
 
-for (i = 1; i <= 999 ; i++) {
-	for (j = 1; j <= 999 ; j++) {
+for (i = 1; i <= 999; i++) {
+	for (j = 1; j <= 999; j++) {
 		number = i * j;
 		str1 = number.toString();
 		str2 = reverse(str1);
